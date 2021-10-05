@@ -1,0 +1,23 @@
+.task {
+  width: 30vw;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+}
+
+.unassigned {
+}
+
+.assigned {
+}
+
+.inProgress {
+}
+
+.complete {
+}
