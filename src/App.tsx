@@ -1,12 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Task from './Task/Task';
+import Task from "./Task/Task";
+import styles from "./App.module.scss";
+import cx from "classnames";
 
 function App() {
   return (
-    <div className="App">
-      <Task/>
+    <div className={cx(styles.appContainer, styles.container)}>
+      <Task />
     </div>
   );
 }

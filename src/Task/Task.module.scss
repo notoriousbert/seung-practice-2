@@ -1,23 +1,35 @@
 .task {
-  width: 30vw;
-  min-height: 200px;
+  //   min-height: 200px;
+  //   width: 500px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  //   justify-content: center;
+  flex-direction: column;
+  //   min-width: 20vw;
+  //   min-width: 400px;
+  //   align-items: center;
 }
 
 .status {
   display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  //   padding: 10px;
 }
 
-.unassigned {
+.taskStatusDims {
+  padding: 5px;
 }
 
-.assigned {
+button {
+  max-width: 150px;
 }
 
-.inProgress {
+.selected {
+  border: 1px solid black;
+  padding: 0.2px;
 }
 
-.complete {
+.taskItem {
+  width: 20px;
+  padding: 5px;
 }
